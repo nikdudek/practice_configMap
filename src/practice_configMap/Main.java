@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.nio.file.Path;
 
 public class Main {
 
@@ -30,6 +31,9 @@ public class Main {
 		catch(Exception e) {
 			System.out.println(e);
 		}
+		
+//		Path path = Path.of(filePath);
+//		System.out.println(ConfigMapHw.getValueFromConfigMap(path, directoryName).toString());
 	}
 	
 	private static void writeFileToPathFileOutputStream(String path, String textToWrite) throws FileNotFoundException, IOException{

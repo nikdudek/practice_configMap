@@ -10,8 +10,8 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		String filePath = "testDirectory" + File.separator + "demo.txt";
 		String directoryName = "testDirectory";
-		String textToWrite = "discount=0.1\r\n" + System.lineSeparator()
-				+ "database.user=admin\r\n" + System.lineSeparator()
+		String textToWrite = "discount=0.1" + System.lineSeparator()
+				+ "database.user=admin" + System.lineSeparator()
 				+ "database.password=qwerty";
 		
 		File file = new File(directoryName);
